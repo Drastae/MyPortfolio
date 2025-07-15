@@ -1,0 +1,184 @@
+body {
+    background-image: url(images/nature.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgba(57, 56, 56, 0.9);
+    border-radius: 20px;
+}
+
+.container-header img {
+    width: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    transition: transform 0.2s ease, color 0.2 ease;
+}
+
+nav ul li a:hover {
+    transform: scale(1.2);
+    color: #43b452;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 80px 20px;
+    text-align: center;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #cccccc;
+}
+
+section {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 15px;
+}
+
+#apropos  {
+    text-align: center;
+    background-color: rgba(57, 56, 56, 0.9);
+}
+
+#passion {
+    text-align: center;
+    background-color: rgba(57, 56, 56, 0.9);
+}
+
+#apropos img {
+    margin:20px;
+    width: 170px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(57, 56, 56, 0.9);
+    border-radius: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+footer .social-links {
+    display: flex;
+    flex-direction: row; 
+    gap: 15px;
+    margin: 10px 0;
+}
+
+footer img {
+    width: 32px;
+    transition: transform 0.2s;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
+
+footer a #click {
+    color:white;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+#education li {
+    list-style: none;
+}
+
+hr {
+    display:none;
+}
+
+.cv-download {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cv-download a {
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cv-download a:hover {
+    transform: scale(1.1);
+    background-color: #45a049;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.language-selector select {
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
